@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+        $x = rand(1,100);
+        echo "N = $x <br>";
+        echo " cac so chan tu 1 den $x la: <br>";
+        for ($i = 1; $i <= $x ; $i++){
+            if ($i % 2 == 0)
+                echo"$i ";
+        }
+    ?>
+</body>
+</html>
